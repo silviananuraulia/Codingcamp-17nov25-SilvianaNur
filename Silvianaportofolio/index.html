@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silviana Nuraulia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gradient-to-b from-pink-200 via-purple-200 to-blue-200 min-h-screen font-sans text-gray-800">
+
+    <!-- Header -->
+    <header class="main-header flex justify-between items-center px-6 py-4 bg-white/70 backdrop-blur shadow-md sticky top-0 z-50">
+        <div class="flex items-center gap-3">
+                <span class="text-2xl font-bold text-purple-200 tracking-wide">Silviana Pages</span>
+            </div>
+
+        <nav class="flex gap-4 text-sm font-semibold">
+            <a class="px-3 py-2 rounded-xl bg-purple-300 hover:bg-purple-400 transition" href="#home-page">Home</a>
+            <a class="px-3 py-2 rounded-xl bg-pink-300 hover:bg-pink-400 transition" href="#our-profile-page">Profile</a>
+            <a class="px-3 py-2 rounded-xl bg-blue-300 hover:bg-blue-400 transition" href="#portfolio-page">Project</a>
+            <a class="px-3 py-2 rounded-xl bg-green-300 hover:bg-green-400 transition" href="#message-us-page">Message</a>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home-page" class="min-h-[500px] flex flex-col items-center justify-center text-center p-6">
+        <div class="hero-container flex flex-col items-center gap-4">
+
+            <h1 class="portfolio-title">PORTOFOLIO</h1>
+
+        </div>
+
+        <h2 class="text-4xl font-extrabold text-purple-800 drop-shadow" id="welcome-speech">Welcome to my website</h2>
+            <p class="mt-3 max-w-xl text-gray-700 text-lg">We are glad to have you here. Explore our services and offerings on this colorful and interactive website.</p>
+            <p class="mt-3 max-w-xl text-gray-700 text-lg font-bold">know me more on my own sosial media</p>
+
+       <!-- SOCIAL MEDIA CARD -->
+        <div class="mt-8 flex justify-center">
+            <div class="bg-white/60 backdrop-blur-xl shadow-lg rounded-2xl px-8 py-5 flex items-center gap-10 border border-purple-200">
+
+                <div class="flex items-center gap-3 text-purple-700 font-semibold">
+                    <i class="fab fa-instagram text-pink-600 text-xl"></i>
+                    <a href="https://www.instagram.com/_auliaxxz/" 
+                    target="_blank"
+                    class="hover:text-purple-900 underline">_auliaxxz</a>
+                </div>
+
+                <div class="h-8 w-[2px] bg-purple-300"></div>
+
+                <div class="flex items-center gap-3 text-purple-700 font-semibold">
+                    <i class="fab fa-linkedin text-blue-700 text-xl"></i>
+                    <a href="https://www.linkedin.com/in/silviana-nuraulia-2666feb/?locale=in_ID" 
+                    target="_blank"
+                    class="hover:text-purple-900 underline">Silviana Nuraulia</a>
+                </div>
+
+                <div class="h-8 w-[2px] bg-purple-300"></div>
+
+                <div class="flex items-center gap-3 text-purple-700 font-semibold">
+                    <i class="fab fa-whatsapp text-green-600 text-xl"></i>
+                    <a href="https://wa.me/6289616265404" 
+                    target="_blank"
+                    class="hover:text-purple-900 underline">+62 896-1626-5404</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Profile Page -->
+    <section id="our-profile-page" class="min-h-[500px] flex items-center justify-center p-6">
+    <div class="bg-white/70 backdrop-blur shadow-xl rounded-3xl p-8 max-w-6xl w-full flex flex-col md:flex-row items-center gap-15">
+
+        <!-- FOTO -->
+        <img src="img/profile.jpeg" 
+             class="w-64 h-80 object-cover rounded-2xl shadow-lg" 
+             alt="Silviana">
+
+        <!-- TEXT -->
+        <div class="flex-1">
+            <h3 class="text-3xl font-extrabold text-blue-700 tracking-wide">HELLO.</h3>
+            <h4 class="text-2xl font-bold text-purple-800 mt-1">I’M SILVIANA NURAULIA</h4>
+
+            <p class="text-gray-700 text-lg leading-relaxed text-justify mt-4">
+                or you can call me Vina. I am a fresh graduate in Information Systems with a GPA of 3.90, driven by a deep interest in UI/UX design and web development. During my academic years, I explored various aspects of technology and discovered a passion for creating intuitive, user-centered digital experiences.  I enjoy designing interfaces that are not only visually appealing but also functional and responsive. I have worked on several academic projects that allowed me to apply design thinking, wireframing, and front-end development using tools like Figma, HTML/CSS, and JavaScript.
+                I’m prepared my self to do my best to achive and unlock new skills about UI & UX Designs and Web Programing. Here is my latest projects, hope you enjoy 🙂
+            </p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Portfolio Page -->
+    <section id="portfolio-page" class="min-h-[500px] flex flex-col items-center justify-center text-center p-6">
+        <h2 class="text-3xl font-bold text-blue-700">My Project</h2>
+        <p class="mt-3 max-w-xl text-gray-700 text-lg">Here are some project highlights that showcase my creativity and skill set.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 w-full max-w-5xl">
+           <div id="open-ui" class="bg-white/70 backdrop-blur rounded-2xl shadow-lg p-4 hover:scale-105 transition cursor-pointer">
+                <div class="h-40 bg-gradient-to-br from-purple-300 to-pink-300 rounded-xl"></div>
+                <h3 class="mt-3 font-bold text-purple-800">UI Design</h3>
+                <p class="text-sm text-gray-600">Modern and clean interface design.</p>
+            </div>
+
+            <div id="open-webdev" class="bg-white/70 backdrop-blur rounded-2xl shadow-lg p-4 hover:scale-105 transition cursor-pointer">
+                <div class="h-40 bg-gradient-to-br from-blue-300 to-green-300 rounded-xl"></div>
+                <h3 class="mt-3 font-bold text-blue-800">Web Development</h3>
+                <p class="text-sm text-gray-600">Building responsive and functional websites.</p>
+            </div>
+
+            <div id="open-branding" class="bg-white/70 backdrop-blur rounded-2xl shadow-lg p-4 hover:scale-105 transition cursor-pointer">
+                <div class="h-40 bg-gradient-to-br from-yellow-300 to-orange-300 rounded-xl"></div>
+                <h3 class="mt-3 font-bold text-orange-700">Journal</h3>
+                <p class="text-sm text-gray-600">Brand identity with unique character.</p>
+            </div>
+        </div>
+    </section>
+                <!-- UI DESIGN PAGE -->
+                <section id="ui-design-page" class="hidden opacity-0 translate-y-5 transition-all duration-500 min-h-[500px] p-6 text-center">
+                    <h2 class="text-3xl font-bold text-purple-800">UI Design Projects</h2>
+
+                    <p class="text-gray-700 mt-3">Here are some UI/UX project samples...</p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+                        <div class="bg-white/60 p-4 rounded-2xl shadow-lg">
+                            <img src="img/pawshi.png" class="w-full h-48 object-cover rounded-xl mb-3">
+                            <h3 class="font-bold text-purple-900">E-Commerce App</h3>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl shadow-lg">
+                            <img src="img/todo.jpeg" class="w-full h-48 object-cover rounded-xl mb-3">
+                            <h3 class="font-bold text-purple-900">ToDo Manajemen App</h3>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl shadow-lg">
+                            <img src="img/digit.png" class="w-full h-48 object-cover rounded-xl mb-3">
+                            <h3 class="font-bold text-purple-900">Banner Promosi</h3>
+                        </div>
+                    </div>
+
+                    <button id="close-ui" class="mt-6 px-6 py-2 bg-red-500 text-white rounded-xl">Close</button>
+                </section>
+
+
+
+                <!-- WEB DEVELOPMENT PAGE -->
+                <section id="webdev-page" class="hidden opacity-0 translate-y-5 transition-all duration-500 min-h-[500px] p-6 text-center">
+                    <h2 class="text-3xl font-bold text-blue-800">Web Development Projects</h2>
+
+                    <p class="text-gray-700 mt-3">Here are some websites and systems I built...</p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+                        <div class="bg-white/60 p-4 rounded-2xl shadow-lg">
+                            <img src="img/pawshi.png" class="w-full h-48 object-cover rounded-xl mb-3">
+                            <h3 class="font-bold text-blue-900">Alumni Website</h3>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl shadow-lg">
+                            <img src="img/pawshi.png" class="w-full h-48 object-cover rounded-xl mb-3">
+                            <h3 class="font-bold text-blue-900">Dishub Website</h3>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl shadow-lg">
+                            <img src="img/pawshi.png" class="w-full h-48 object-cover rounded-xl mb-3">
+                            <h3 class="font-bold text-blue-900">Bonsai Website</h3>
+                        </div>
+                    </div>
+
+                    <button id="close-webdev" class="mt-6 px-6 py-2 bg-red-500 text-white rounded-xl">Close</button>
+                </section>
+
+
+
+                <!-- BRANDING PAGE -->
+                <section id="branding-page" class="hidden opacity-0 translate-y-5 transition-all duration-500 min-h-[500px] p-6 text-center">
+                    <h2 class="text-3xl font-bold text-orange-700">Journal</h2>
+
+                    <p class="text-gray-700 mt-3">Here are branding works I've created...</p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+                        <div class="bg-white/60 p-4 rounded-2xl shadow-lg">
+                            <img src="img/profile.jpeg" class="w-full h-48 object-cover rounded-xl mb-3">
+                            <h3 class="font-bold text-orange-900">Perancangan Sistem Informasi Penjualan Tanaman Hias Berbasis Website Menggunakan Framework Laravel pada Usaha Raja Bonsai Taman ID</h3>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl shadow-lg">
+                            <img src="img/profile.jpeg" class="w-full h-48 object-cover rounded-xl mb-3">
+                            <h3 class="font-bold text-orange-900">Analisis Kepuasan Terhadap Kualitas dan Kepercayaan Mahasiswa Pelanggan GoRide pada Aplikasi Gojek di Kota Tangerang</h3>
+                        </div>
+                        <div class="bg-white/60 p-4 rounded-2xl shadow-lg">
+                            <img src="img/profile.jpeg" class="w-full h-48 object-cover rounded-xl mb-3">
+                            <h3 class="font-bold text-orange-900">Perancangan Aplikasi Pemilihan Laptop Dengan Metode Simple Multi Attribut Rating Technique (SMART)</h3>
+                        </div>
+                    </div>
+
+                    <button id="close-branding" class="mt-6 px-6 py-2 bg-red-500 text-white rounded-xl">Close</button>
+                </section>
+
+    <!-- Message Us -->
+    <section id="message-us-page" class="min-h-[500px] p-10 bg-white/70 backdrop-blur shadow-xl m-6 rounded-3xl">
+        <h2 class="text-3xl font-bold text-green-700 text-center">Message Us</h2>
+        <p class="text-center mt-3 max-w-2xl mx-auto text-gray-700">Have questions or want to work with me? Send a message and I’ll reply promptly.</p>
+
+                <form id="contact-form" class="max-w-xl mx-auto mt-6">
+            <div class="mb-4">
+                <label class="block mb-2 font-semibold" for="name">Name</label>
+                <input class="w-full p-3 border rounded-xl" type="text" id="name" required />
+            </div>
+
+            <div class="mb-4">
+                <label class="block mb-2 font-semibold" for="email">Email</label>
+                <input class="w-full p-3 border rounded-xl" type="email" id="email" required />
+            </div>
+
+            <!-- JENIS KELAMIN -->
+            <div class="mb-4">
+                <label class="block mb-2 font-semibold">Jenis Kelamin</label>
+                <select id="gender" class="w-full p-3 border rounded-xl" required>
+                    <option value="">-- Pilih Jenis Kelamin --</option>
+                    <option value="Perempuan">Perempuan</option>
+                    <option value="Laki-laki">Laki-laki</option>
+                </select>
+            </div>
+
+            <div class="mb-4">
+                <label class="block mb-2 font-semibold" for="message">Message</label>
+                <textarea class="w-full p-3 border rounded-xl" id="message" rows="5" required></textarea>
+            </div>
+
+            <button class="w-full py-3 bg-green-500 text-white rounded-xl font-bold hover:bg-green-600 transition">
+                Send Message
+            </button>
+        </form>
+        <div id="output-box" class="mt-10 p-6 bg-white/60 backdrop-blur rounded-2xl shadow-lg hidden">
+            <h3 class="text-xl font-bold mb-4 text-green-700">Form Result</h3>
+
+            <p><strong>Name:</strong> <span id="output-name"></span></p>
+            <p><strong>Email:</strong> <span id="output-email"></span></p>
+            <p><strong>Jenis Kelamin:</strong> <span id="output-gender"></span></p>
+            <p><strong>Message:</strong> <span id="output-message"></span></p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 mt-10 text-gray-900 font-semibold">
+        © 2025 Silviana Nuraulia
+    </footer>
+
+</body>
+</html>
